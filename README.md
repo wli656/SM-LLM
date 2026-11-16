@@ -52,7 +52,7 @@ Pretrained LLMs are downloaded from the Hugging Face Hub on first use. LLaMA-7B 
 
 ## Data
 
-Download the benchmark dataset ([link to be added]) and place the tables in `data/`:
+Prepare the dataset and place the tables in `data/`:
 
 ```
 data/
