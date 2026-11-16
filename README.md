@@ -20,7 +20,6 @@ static data  X ∈ R^{K}   ──► MLP encoder ──────────�
 | `sm_llm/metrics.py` | R, RMSE, bias, ubRMSE, KGE |
 | `sm_llm/config.py` | Variables, land-cover codes, LLM backbones, experiment presets |
 | `sm_llm/stations.py` | The 200 SCAN/USCRN stations used in the paper |
-| `prepare_data.py` | Extracts the 200 selected stations from the full tables |
 | `train.py` | Training under the out-of-year protocol |
 | `make_results.py` | Inference on held-out years and result tables |
 
