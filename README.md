@@ -59,12 +59,6 @@ data/
 └── New_data_90_30_200loc.csv    # 90-day input -> 30-day forecast
 ```
 
-If you start from the full tables (`New_data_15_5.csv`, `New_data_90_30.csv`), create the 200-station versions with
-
-```bash
-python prepare_data.py                     # reads data/New_data_*.csv, writes data/New_data_*_200loc.csv
-python prepare_data.py --drop_duplicates   # additionally removes repeated (ID, Date) rows
-```
 
 Each row is one forecast sample (`ID`, `Date`, `Year`) with:
 
